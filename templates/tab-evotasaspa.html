@@ -1,0 +1,22 @@
+<ion-view view-title="Consumo de energía eléctrica">
+<ion-nav-title>      
+Consumo de energía eléctrica
+</ion-nav-title>
+  <ion-content>
+    <ion-list>
+
+		<h3 align="center">Hasta ahora ha consumido:
+			<p id="employeeList" ></p>
+			Lo que al cambio en soles es:
+			<p id="employeeLista" ></p>
+				<div id="busy">
+				Cargando...
+			</div>
+			</h3>  		 
+
+		<h3>El siguiente gráfico mostrará el consumo de hoy:</h3>
+		<canvas id="bar" class="chart chart-line" data="graph.data" labels="graph.labels" series='graph.series' height="100"></canvas>
+
+    </ion-list>
+  </ion-content>
+</ion-view>
