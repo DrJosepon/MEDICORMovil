@@ -1,4 +1,4 @@
-localStorage['serviceURL'] = 'http://localhost:8080/medicorserver/';
+localStorage['serviceURL'] = 'http://medicor.azurewebsites.net/';
 angular.module('starter.controllers', [])
 
 
